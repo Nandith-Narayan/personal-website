@@ -1,14 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Navigation from "./Navigation";
+import {useState} from "react";
 
 function App() {
-  return (
+    const [view, setView] = useState("about-me")
+
+    return (
     <div className="App">
-      <header>
-        hi
-      </header>
+      <Navigation view={view} setView={setView}/>
     </div>
-  );
+    );
 }
 
 export default App;

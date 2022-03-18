@@ -1,0 +1,67 @@
+div.header{
+    display: inline-block;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: #052443;
+}
+
+div.header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    padding-left: 1em;
+    gap: 1em;
+}
+
+div.header ul button{
+    background: transparent;
+    border-style: solid;
+    border-radius: 2px;
+    color: #a29f9f;
+    transition: 0.25s;
+}
+div.header ul button:hover{
+    color: #ffffff;
+    border-radius: 7px;
+    border-color: #ffff00;
+    background: #ffff0040;
+}
+div.header ul button:active{
+    border-color: #ffff0080;
+    background: rgba(0, 0, 0, 0.25);
+}
+div.header ul button.active-view{
+    border-color: #ff000090;
+}
+div.header ul button.active-view:hover{
+    border-color: #ff0000;
+    background: #ff000060;
+}
+div.header ul button.active-view:active{
+    border-color: #600202;
+    background: rgba(35, 7, 7, 0.38);
+}
+h1{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    text-align: left;
+    background: -webkit-linear-gradient(0deg, #ff0000 1%, #fd6e01 10%, #ffc200 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #00000000;
+}
+div.header h2{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    text-align: left;
+    color: #ffffff;
+
+}
+div.header div#heading h2:after{
+    display: block;
+    height: 4px;
+    content: "";
+    background: #fd6e01;
+    border-radius: 80px;
+}
