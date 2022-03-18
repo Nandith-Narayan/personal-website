@@ -6,8 +6,56 @@ div.profile{
 
 div.profile img#profile-pic{
     border-radius: 2em;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 div.profile p{
     margin-right: 0;
+}
+
+div.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+div.card-container div.card{
+    width: 100vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    animation: 1s ease-out 0s 1 slideInFromBelow;
+}
+div.card-container div.card div.publications{
+    color: #000000;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+div.publications h2{
+    text-align: left;
+}
+div.publications h2:after{
+    display: block;
+    height: 4px;
+    content: "";
+    background: #000000;
+    border-radius: 80px;
+}
+div.publications ol{
+    list-style: none;
+}
+div.publications a{
+    text-decoration: none;
+    color: #000000;
+}
+div.publications a:hover{
+    text-decoration: underline;
+}
+
+@keyframes slideInFromBelow {
+    0% {
+        transform: translateY(+100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 100%;
+    }
 }

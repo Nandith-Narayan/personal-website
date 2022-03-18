@@ -9,7 +9,10 @@ function App() {
     return (
     <div className="App">
         <Navigation view={view} setView={setView}/>
-        <AboutMe></AboutMe>
+        {view === "about-me" ?
+            <AboutMe></AboutMe>
+            : ""
+        }
     </div>
     );
 }
