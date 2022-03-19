@@ -31,7 +31,7 @@ div.card-container div.card div.publications{
 div.publications h2{
     text-align: left;
 }
-div.publications h2:after{
+div.card h2:after{
     display: block;
     height: 4px;
     content: "";
@@ -59,3 +59,21 @@ div.publications a:hover{
         opacity: 100%;
     }
 }
+
+div.card#github-card, div.card#linkedIn-card, div.card#assist-lab-card{
+    width: fit-content;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    transition: 0.25s;
+}
+div.card#github-card:hover, div.card#linkedIn-card:hover, div.card#assist-lab-card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+div.card#github-card img, div.card#linkedIn-card img, div.card#assist-lab-card img{
+    width: 20vw;
+}
+

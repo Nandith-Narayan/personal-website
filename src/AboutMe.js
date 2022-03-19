@@ -27,6 +27,21 @@ function AboutMe(){
                     </ol>
                 </div>
             </div>
+            <div className="card" id="github-card">
+                <a href="https://github.com/Nandith-Narayan">
+                    <img src="GitHub_Logo.png" alt="GitHub"/>
+                </a>
+            </div>
+            <div className="card" id="linkedIn-card">
+                <a href="https://www.linkedin.com/in/nandith-narayan-553084202/">
+                    <img src="LI-Logo.png" alt="LinkedIn"/>
+                </a>
+            </div>
+            <div className="card" id="assist-lab-card">
+                <a href="https://research.fit.edu/assist-lab/">
+                    <img src="assistLabLogo.png" alt="assist Lab"/>
+                </a>
+            </div>
         </div>
     );
 }
