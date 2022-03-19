@@ -14,6 +14,9 @@ div.project-container div.project-card{
     justify-content: left;
     padding-left: 1em;
     padding-right: 1em;
+    margin-right: 2em;
+    background: #052443;
+    color: white;
 }
 div.project-container div.project-card h3{
     text-align: left;
