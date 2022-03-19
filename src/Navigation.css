@@ -20,6 +20,7 @@ div.header ul button{
     border-style: solid;
     border-radius: 2px;
     color: #a29f9f;
+    padding: 0.3em;
     transition: 0.25s;
 }
 div.header ul button:hover{

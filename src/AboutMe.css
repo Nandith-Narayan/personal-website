@@ -7,6 +7,9 @@ div.profile{
 div.profile img#profile-pic{
     border-radius: 2em;
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #052443;
 }
 div.profile p{
     margin-right: 0;
