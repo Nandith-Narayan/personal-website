@@ -1,0 +1,33 @@
+div.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+    gap: 1em;
+    justify-content: center;
+}
+div.project-container div.project-card{
+    width: 20vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+div.project-container div.project-card h3{
+    text-align: left;
+    padding: 1em 0 0;
+    margin: 0;
+}
+div.project-container div.project-card h3:after{
+    display: block;
+    height: 4px;
+    content: "";
+    background: #fd6e01;
+    border-radius: 80px;
+}
+div.project-container div.project-card img{
+    width: 50%;
+    float: right;
+}

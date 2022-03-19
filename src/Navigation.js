@@ -1,7 +1,7 @@
 import "./Navigation.css";
 
 function Navigation(props){
-    let allViews = ["about-me"];
+    let allViews = ["about-me", "projects"];
     let headings = {"about-me":"About Me", "projects":"My Projects"};
     return (
         <div className="header">
