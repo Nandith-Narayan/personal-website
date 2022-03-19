@@ -6,6 +6,7 @@ div.project-container{
     justify-content: center;
 }
 div.project-container div.project-card{
+    animation: 0.5s ease-out 0s 1 fadeIn;
     width: 20vw;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 2em;
@@ -33,4 +34,16 @@ div.project-container div.project-card h3:after{
 div.project-container div.project-card img{
     width: 50%;
     float: right;
+    padding-left: 0.5em;
+}
+
+@keyframes fadeIn{
+    0% {
+        transform: translateY(+10%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 100%;
+    }
 }
