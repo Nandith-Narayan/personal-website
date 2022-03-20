@@ -1,0 +1,11 @@
+div.skills h4{
+    margin-top: 0.5em;
+    margin-left: 2.5em;
+    margin-bottom: 0;
+    text-align: left;
+}
+div.skills div.skill-list-container div.skill-container div.skill-card{
+    padding: 0.2em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    border-radius: 0.5em;
+}

@@ -1,0 +1,9 @@
+div.skills div.skill-container{
+    margin-left: 5em;
+    margin-top: 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 0.5em;
+    justify-content: left;
+}

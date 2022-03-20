@@ -1,0 +1,47 @@
+div.resume{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+div.resume div.education{
+    text-align: left;
+}
+div.resume h3{
+    text-align: left;
+    padding: 1em 0 0;
+    margin: 0;
+}
+div.resume h3:after{
+    display: block;
+    height: 4px;
+    content: "";
+    background: #000000;
+    border-radius: 80px;
+}
+div.resume div.education h4{
+    margin-top: 0.5em;
+    margin-left: 2.5em;
+    margin-bottom: 0;
+}
+div.resume div.education p{
+    margin-top: 0.25em;
+    margin-left: 5em;
+}
+div.resume div.experience{
+    text-align: left;
+}
+
+div.resume div.experience h4{
+    margin-top: 0.5em;
+    margin-left: 2.5em;
+    margin-bottom: 0;
+}
+div.resume div.experience em{
+    margin-top: 0.5em;
+    margin-left: 2.5em;
+    margin-bottom: 0;
+}
+div.resume div.experience ul{
+    margin-top: 0;
+    margin-left: 2.5em;
+    margin-bottom: 0;
+}

@@ -1,8 +1,8 @@
 import "./Navigation.css";
 
 function Navigation(props){
-    let allViews = ["about-me", "projects"];
-    let headings = {"about-me":"About Me", "projects":"My Projects"};
+    let allViews = ["about-me", "projects", "resume"];
+    let headings = {"about-me":"About Me", "projects":"My Projects", "resume":"My Resume"};
     return (
         <div className="header">
             <h1>Nandith Narayan</h1>
@@ -12,7 +12,7 @@ function Navigation(props){
                         <button key={id}
                                 className={props.view === value ? "active-view":"inactive-view"}
                                 onClick={() => {props.setView(value);}}
-                        ><strong>{value}</strong></button>
+                        >{headings[value]}</button>
                     </li>
                 ))}
             </ul>

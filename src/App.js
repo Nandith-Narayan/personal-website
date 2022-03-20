@@ -3,6 +3,7 @@ import Navigation from "./Navigation";
 import {useState} from "react";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
+import Resume from "./Resume";
 
 function App() {
     const [view, setView] = useState("about-me")
@@ -11,11 +12,15 @@ function App() {
     <div className="App">
         <Navigation view={view} setView={setView}/>
         {view === "about-me" ?
-            <AboutMe></AboutMe>
+            <AboutMe/>
             : ""
         }
         {view === "projects" ?
-            <Projects></Projects>
+            <Projects/>
+            : ""
+        }
+        {view === "resume" ?
+            <Resume/>
             : ""
         }
     </div>
