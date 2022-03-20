@@ -5,24 +5,47 @@ div.header{
     padding: 0;
     background: #052443;
 }
-
-div.header ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    margin-left: 0;
-    padding-left: 1em;
-    gap: 1em;
+@media (max-width: 768px) {
+    div.header ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-right: 1em;
+        gap: 1em;
+        flex: 1 1 0px;
+    }
+    div.header ul button{
+        width: 100%;
+        background: transparent;
+        border-style: solid;
+        border-radius: 2px;
+        color: #a29f9f;
+        padding: 0.3em;
+        transition: 0.25s;
+    }
+}
+@media (min-width: 769px) {
+    div.header ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+        padding-left: 1em;
+        gap: 1em;
+    }
+    div.header ul button{
+        background: transparent;
+        border-style: solid;
+        border-radius: 2px;
+        color: #a29f9f;
+        padding: 0.3em;
+        transition: 0.25s;
+    }
 }
 
-div.header ul button{
-    background: transparent;
-    border-style: solid;
-    border-radius: 2px;
-    color: #a29f9f;
-    padding: 0.3em;
-    transition: 0.25s;
-}
 div.header ul button:hover{
     color: #ffffff;
     border-radius: 7px;

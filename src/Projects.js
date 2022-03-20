@@ -18,7 +18,7 @@ function Projects(){
                 </p>
             </div>
             <div className="project-card">
-                <h3>Super Mario World AI</h3>
+                <h3>Super Mario World A.I.</h3>
                 <p>
                     <img src="MarioAIProject.png" alt="project"/>
                     For my Neural Networks class project, I trained a Neural Network to autonomously play Super Mario World.
