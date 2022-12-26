@@ -13,6 +13,14 @@ function Resume(){
             <Skills/>
             <div className="experience">
                 <h3>Experience</h3>
+                <h4>Cognizant, Atlanta, GA</h4>
+                <em>Software Developer</em>
+                <ul>
+                    <li>
+                        
+                    </li>
+                    
+                </ul>
                 <h4>Florida Institute of Technology, Melbourne, FL</h4>
                 <em>Undergraduate Research Assistant</em>
                 <ul>

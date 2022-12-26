@@ -7,8 +7,8 @@ function Skills(){
         "NuXmv", "SOAR", "Emulator Development", "Go", "Blender", "AWS"];
 
     const languages = ["Java", "SQL", "C/C++", "Python", "JavaScript", "Haskell", "Go", "Assembly"];
-    const webDev = ["React", "HTML", "CSS", "AWS", "Node.js", "Express.js"];
-    const softwareDev = ["Software Testing", "Junit", "Git", ];
+    const webDev = ["React", "Angular", "HTML", "CSS", "AWS", "Node.js", "Express.js", "Spring"];
+    const softwareDev = ["Software Testing", "Junit", "Git", "Jira"];
     const generalSkills = ["Data processing for Neural Networks", "Compiler Construction", "Antlr",
         "NuXmv", "SOAR", "Emulator Development", "Blender", "Numpy", "Keras"];
     return (
